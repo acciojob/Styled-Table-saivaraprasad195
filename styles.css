@@ -1,1 +1,22 @@
 /* your code */
+      table{
+        width:70%;
+        font-family: Arial;
+        font-size: 12px;
+        border-spacing: 0;
+        border-collapse: separate;
+        border-radius: 10px;
+        border: 1px solid #dddddd;
+      }
+      thead
+      {
+        background-color: #215a8e;
+        color: aliceblue;
+        text-align: left;
+      }
+      th, td{
+        padding: 10px;
+      }
+      tr:nth-child(even){
+        background-color: #dddddd;
+	  }
